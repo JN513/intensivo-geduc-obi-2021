@@ -1,0 +1,1 @@
+# Exercicios utilizados no intensivo do Geduc
