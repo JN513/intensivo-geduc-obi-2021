@@ -3,6 +3,7 @@
 #define ll long long int
 #define nl endl
 
+
 using namespace std; // 
 
 int n; // Numero de espressões

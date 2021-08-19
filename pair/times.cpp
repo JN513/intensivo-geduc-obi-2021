@@ -20,7 +20,11 @@ int main(void){
 
         cin >> s >> x; // Leitura do nome e nivel de abilidade
         v.push_back({s,x}); // Adiciona o aluno na lista
+        //v.push_back(make_pair(s,x)); // Adiciona o aluno na lista
     }
+
+    int v[100];
+
 
     sort(v.begin(), v.end(), [](pair<string, int> a, pair<string, int> b){ // Ordena os alunos por nivel de abilidade
         return a.second > b.second; // Ordena os alunos por nivel de abilidade
@@ -37,6 +41,7 @@ int main(void){
     for(int i = 0; i < m; i++){ // Imprime os times
         cout << "Time "<<i+1 << nl; // Imprime o numero do time
         sort(t[i].begin(), t[i].end()); // Ordena os alunos do time
+
         for(string s: t[i])cout << s << nl; // Imprime os alunos do time
         cout << nl; // Imprime uma linha em branco
     }
