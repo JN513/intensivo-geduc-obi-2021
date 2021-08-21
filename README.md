@@ -18,7 +18,7 @@ Zero para anular:
 
 Chaves:
 
-Explessões:
+Expressões:
 
 Frequencia na aula:
 
